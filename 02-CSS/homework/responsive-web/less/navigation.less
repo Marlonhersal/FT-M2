@@ -1,1 +1,39 @@
 // Código de Nav acá
+.cabecera {
+    width: 100%;
+    background-color: rgb(239, 228, 228);
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+
+.cabecera{
+    h1{
+        .tituloPrincipal()
+    }
+    nav{
+        padding: 0 200px;
+    }
+     nav ul{
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    nav ul a  {
+        .enlacesSinEstilos()
+    }
+}
+
+@media screen and (max-width: (@phone + 400)) {
+    .cabecera{
+        nav{
+            padding:0 30px;
+        }
+    }
+}
+@media screen and (max-width: @phone) {
+    .cabecera{
+        nav{
+            padding:0;
+        }
+    }
+}

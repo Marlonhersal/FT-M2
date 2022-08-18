@@ -38,6 +38,7 @@ Existen una gran variedad de Frameworks CSS pero entre los más utilizados en la
 * Ulkit
 * Semantic UI
 
+
 ### Bootstrap
 
 En esta lesson nos centraremos en Bootstrap que es el más utilizado de ellos. Las ventajas que nos ofrece este Framework es que ya tiene componentes con estilos predefinidos que podemos reutilizar para ganar tiempo.
@@ -51,7 +52,7 @@ Por ejemplo supongamos que quisiéramos crear en nuestra página web un botón r
   button {
     color: white;
     background-color: red;
-    border-radius: 5px;
+    border-radius: 5px; 
   }
 </style>
 <body>

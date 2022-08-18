@@ -57,7 +57,17 @@
         margin-bottom: 26px;
       }
 
-      .btn {
+      .btn{
+        .estiloBoton(black,sans-serif,white);
+        text-align: center;
+        width: 25%;
+        padding: 10px;
+        border-radius: 10px;
+      }
+      
+      .btn:hover{
+        .estiloBoton(white, arial,black);
+        border: 2px red solid;
       }
     }
 
@@ -71,5 +81,59 @@
         border-radius: 10px;
       }
     }
+  }
+}
+
+
+header img{
+  border-radius: 20px;
+  margin-top: 10px;
+}
+.home .auricularMobile{
+  display: none;
+}
+.home .tecnologiaMobile{
+  display: none;
+}
+
+@media screen and (max-width: (@phone + 350)) {
+  header img {
+    width: 100%;
+    padding: 0 10px;
+  }
+}
+@media screen and (max-width: @phone) {
+  .home .music-images{  
+      display: none;
+  }
+  .home .auricularMobile{
+    width: 90%;
+    display: block;
+    padding: 15px 0;
+    margin:  0 auto;
+    border-radius: 30px;
+
+  }
+  .home .tecnologiaMobile{
+    width: 90%;
+    display: block;
+    padding: 15px 0;
+    margin:  0 auto;
+    border-radius: 30px;
+  }
+  .home .actual .actual-text{
+    width: 100%;
+  }
+  .home .actual{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+  }
+  .home .actual-img{
+    display: none;
+  }
+  .home .actual .actual-text .btn{
+    width: 90%;
+    margin: 0 auto;
   }
 }
