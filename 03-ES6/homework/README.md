@@ -16,7 +16,7 @@ En spec/selectorSpec.js podes previsualizar como los test estan siendo corridos.
 
 ### Orientacion
 
-En este homework, vamos a crear nuestra propia implementación de un selector en el DOM, es decir, vamos a traversar (recorrer) el DOM buscando elementos que matcheen con el argumento que le hayamos pasado. Por ejemplo:
+En este homework, vamos a crear nuestra propia implementación de un selector en el DOM, es decir, vamos a traversar (recorrer) el  busDOMcando elementos que matcheen con el argumento que le hayamos pasado. Por ejemplo:
 
 ```
 $('#id') => debería retornar un elemento con id: "id".
@@ -91,7 +91,6 @@ Hay cuatro tipos de selectores que tu función `$` puede ser capáz de matchear.
 El `selectorTypeMatcher` debería tomar un selector como string (como cualquiera de los ejemplos de arriba) y devolver one de los 4 string que representand el tipo de selector. Por ejemplo, para detectar un selector de tipo id, cheque primero si el primer caracter del selector es #. Si es asím la función debería devolver 'id'.
 
 **Termina escribiendo** `selectorTypeMatcher. Cuando hayas pasado los tests asociados avanza a la siguiente parte del workshop.
-
 
 ### Generando la función de matcheo
 

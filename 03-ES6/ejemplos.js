@@ -1,27 +1,28 @@
-// //class
-// class test{
-// 	constructor(name, apellido){
-// 		this._name = name;
-// 		this._apellido = apellido;
-// 	}
-//   get nombre () {
-//     return this._name + ' ' + this._apellido;
-//   }
-// }
+//class
+/* class test{
+	constructor(name, apellido){
+		this._name = name;
+		this._apellido = apellido;
+	}
+  get nombre () {
+    return this._name + ' ' + this._apellido;
+  }
+}
 
-// var Walter  = new test('Walter', "Moorlag");
-// console.log(Walter.nombre);
+var Walter  = new test('Walter', "Moorlag");
+console.log(Walter.nombre); */
 
-// function test2(name, apellido){
-// 	this._name = name;
-// 	this._apellido = apellido;
-// }
-// test2.prototype.nombre = function(){
-// 	return this._name + ' ' + this._apellido;
-// }
+/* function test2(name, apellido){
+	this._name = name;
+	this._apellido = apellido;
+}
+test2.prototype.nombre = function(){
+	return this._name + ' ' + this._apellido;
+}
 
-// var Walter  = new test2('Walter', "Moorlag");
-// console.log(Walter.nombre());
+var Walter  = new test2('Walter', "Moorlag");
+console.log(Walter.nombre()); */
+
 var p = 'sadsa'
 
 var obj = {
