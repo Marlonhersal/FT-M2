@@ -1,0 +1,17 @@
+.contenedor{
+    margin: 0 auto;
+    width: 60%;
+    background-color: rgb(52, 180, 197);
+    border: 1px solid black;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.contenedor input{
+    width: 300px;
+    background: rgb(242, 235, 235);
+    border: none;
+    border-radius: 10px;
+    margin-right: 30px;
+}

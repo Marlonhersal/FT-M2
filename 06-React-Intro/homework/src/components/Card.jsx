@@ -1,8 +1,9 @@
 import React from 'react';
+import s from "./card.module.css"
 
 export default function Card(props) {
   // acá va tu código
-  return <div>
+  return <div className={s.contenedor}>
     <button onClick={props.onClose}>X</button>
     <h6>{props.name}</h6>
     <div>

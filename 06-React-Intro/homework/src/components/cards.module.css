@@ -1,0 +1,13 @@
+.contenedor {
+    display:  flex;
+    justify-content: space-around;
+    background-color: rgb(186, 186, 240);
+    padding: 30px;
+    margin: 0 50px;
+    border-radius: 20px;
+    border: 5px dotted rgb(29, 151, 184);
+}
+
+
+
+
