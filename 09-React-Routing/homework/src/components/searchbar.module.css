@@ -1,0 +1,14 @@
+.contenedor{
+    width: 45%;
+    margin: 0;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.contenedor input[type="text"]{
+    width: 70%;
+    background: rgb(253, 253, 253);
+    border: none;
+    border-radius: 10px;
+    margin-right: 30px;
+}
