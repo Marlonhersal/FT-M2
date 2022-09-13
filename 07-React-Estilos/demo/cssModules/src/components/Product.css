@@ -1,9 +1,9 @@
 .producto h3 {
-  background-color: SpringGreen;
+  background-color: rgb(185, 107, 107);
 }
 
 .producto {
-  color: salmon;
+  color: rgb(156, 69, 59);
 }
 
 .hola {

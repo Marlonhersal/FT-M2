@@ -1,5 +1,6 @@
+import { Button } from "bootstrap";
 import React, { Component } from "react";
-import { connect } from 'react-redux';
+import { connect, Provider } from 'react-redux';
 import { increment, decrement } from '../actions';
 
 class Counter extends Component {
@@ -15,15 +16,17 @@ class Counter extends Component {
     render() {
         // Completa las funciones onClick de los botones
         // Al hacer clic en estos botones, el recuento debe disminuir o aumentar en consecuencia
+        console.log(this.props)
         return (
             <p>
                 Clickeado: {this.props.count} veces
-                <button onClick={() => {/* Completar */ }}>
+                <button onClick={() => {this.props.increment()}}>
                     + {/* Incremeta */}
                 </button>
-                <button onClick={() => {/* Completar */ }}>
+                <button onClick={() => {this.props.incr2ement()}}>
                     -  {/* Decrementa */}
                 </button>
+                <button onClick={()=>{console.log()}}></button>
                  {/* Si quieres hacer los extra credit puede descomentar las lineas de abajo */}
                 {/* <button onClick={this.incrementIfOdd}>
                     incrementa si es impar
@@ -43,7 +46,9 @@ class Counter extends Component {
 // recibiría sólo las partes relevantes que necesita del objeto de estado.
 const mapStateToProps = (state) => {
     return {
-        count: state.count
+        count: state.count,
+        saludo2: state.saludo2,
+        saludo : "Che gama"
     };
 };
 

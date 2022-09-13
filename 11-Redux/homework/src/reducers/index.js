@@ -1,7 +1,8 @@
 import { INCREMENT, DECREMENT } from '../actions';
 
 const initialState = {
-  count: 0
+  count: 1,
+  saludo2:"sha esta"
 }
 
 // Nuestro reducer que maneja nuestros dos casos de acción incremento y decremento.
@@ -10,8 +11,9 @@ const initialState = {
 export default (state = initialState, action) => {
   switch (action.type) {
     case INCREMENT:
-    // completa para este caso
+      return {count: state.count + 1}
     case DECREMENT:
+      return {count: state.count - 1}
     // Fill para este otro
     default:
       return state;

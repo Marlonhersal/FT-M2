@@ -21,7 +21,7 @@
 
 # Módulos y Bundlers
 
-Cuando desarrollamos, queremos que la estructura de nuestro programa/codigo sea lo mas transparente posible, facil de explicar y que cada parte cumpla una tarea definida.
+Cuando desarrollamos, queremos que la estructura de nuestro programa/codigo sea lo mas transparente posible, facil de explicar y que cada parte cumpla una tarea definida.  
 
 Un programa típico crece de manera organica con el tiempo, nuevas piezas de funcionalidad van siendo agregadas a medida que surgen nuevas necesidades. Esto hace que dar una Estructura -y mantenerla mientras crece- sea fundamental. El problema que mantener esa estructura es un trabajo *extra*, el cual solo veremos los frutos en el futuro, cuando alguien nuevo trabaje en el proyecto.Por lo tanto, lo que puede terminar sucediendo, es que no se haga el trabajo extra y se deja que las partes del programa queden muy entreveradas entre sí.
 
@@ -159,7 +159,7 @@ var weekDays = require('./WeekDays.js');
 
 console.log(weekDay.name(weekDay.number("Domingo")));
 ```
-
+    
 Viendo esto, podríamos imaginar cómo funciona `require` por adentro:
 
 ```js

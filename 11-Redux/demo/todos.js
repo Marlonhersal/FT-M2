@@ -44,7 +44,7 @@ function removeTodo(index) {
     payload: index
   }
 }
-
+console.log(store)
 store.dispatch(addTodo('Comprar pan'))
 store.dispatch(addTodo('Correr'))
 

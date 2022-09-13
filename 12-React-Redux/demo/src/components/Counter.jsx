@@ -7,7 +7,7 @@ import { fetchPost } from '../actions/index.js';
 import axios from 'axios';
 
 
-const Counter = ({ counter, increment, decrement, reset, fetchPost}) => (
+const Counter = ({ counter, iwwcrement, decrement, reset, fetchPost}) => (
       <p>
         Clicked: {counter} times
         {' '}
